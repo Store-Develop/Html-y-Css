@@ -1,12 +1,13 @@
 h1 {
-    color: blue;
+    color: #e63946;
+    text-align: center;
 }
 
 p {
-    color: white;
-    background-color: crimson;
+    color: #457b9d;
+    background-color: #f1faee;
     padding: 15px;
-    border: 10px solid powderblue;
+    border: 10px solid #a8dadc;
     /*margin-top: 40px; /*superior*/
     /*margin-right: 10px; /*derecha*/
     /*margin-bottom: 20px; /*inferior*/
@@ -14,4 +15,5 @@ p {
     margin: auto 50px;
     text-align: center;
     /*De igual forma se pueden utilizar de manera individual padding y el border.*/
+    /*Puedes consultar una paleta de colores por ejemplo: https://coolors.co/*/
 }
