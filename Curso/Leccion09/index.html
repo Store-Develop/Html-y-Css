@@ -10,7 +10,7 @@
 
 <body>
     <h1>Formularios en HTML</h1>
-    <form method="post">
+    <form>
         <label for="nombre">Nombre:</label>
         <br/>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true" />
@@ -19,11 +19,15 @@
         <br/>
         <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true" />
         <br/>
-        <label for="password ">Password:</label>
+        <label for="email">Email:</label>
         <br/>
-        <input type="password" id="password " name="password " required="true " />
+        <input type="email" id="email" name="email" />
         <br/>
-        <input type="submit" value="Enviar " />
+        <label for="edad">Edad:</label>
+        <br/>
+        <input type="number" id="edad" name="edad" />
+        <br/>
+        <input type="submit" value="Enviar" />
         <input type="submit" formnovalidate="formnovalidate " value="Enviar sin validar ">
 </body>
 
