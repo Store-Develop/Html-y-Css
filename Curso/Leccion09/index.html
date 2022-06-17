@@ -10,7 +10,7 @@
 
 <body>
     <h1>Formularios en HTML</h1>
-    <form>
+    <form action="mi_servidor" target="_blank" autocomplete="off">
         <fieldset>
             <legend>Datos Persona:</legend>
             <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true" />
@@ -69,8 +69,7 @@
             <label for="comentario">Comentario:</label>
             <br />
             <textarea id="comentario" name="comentario" rows="2" cols="30">
-Este es mi comentario.
-            </textarea>
+Este es mi comentario.</textarea>
             <br />
             <input type="submit" value="Enviar" />
             <input type="submit" formnovalidate="formnovalidate " value="Enviar sin validar " />
